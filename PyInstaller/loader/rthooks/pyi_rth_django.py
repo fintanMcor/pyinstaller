@@ -55,7 +55,13 @@ def _get_commands():
          'syncdb': 'django.core',
          'test': 'django.core',
          'testserver': 'django.core',
-         'validate': 'django.core'
+         'validate': 'django.core',
+         # Added by HD 10 June 2016 for ProjectX
+         'createinitialrevisions': 'reversion',
+         'deleterevisions': 'reversion',
+         'dmp_collectstatic': 'django_mako_plus.controller',
+         'dmp_makemessages':'django_mako_plus.controller',
+         'dmp_startapp': 'django_mako_plus.controller',
     }
     return commands
 
