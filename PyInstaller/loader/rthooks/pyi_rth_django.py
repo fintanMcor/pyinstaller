@@ -62,6 +62,10 @@ def _get_commands():
          'dmp_collectstatic': 'django_mako_plus.controller',
          'dmp_makemessages':'django_mako_plus.controller',
          'dmp_startapp': 'django_mako_plus.controller',
+         # Added by HD 13 Dec 2016 for ProjectX
+         'qcluster': 'django_q',
+         'qinfo': 'django_q',
+         'qmonitor': 'django_q',
     }
     return commands
 
